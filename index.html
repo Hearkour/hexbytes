@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Text, Bytes, Hex</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+    Text:<br>
+    <input id="text"    type="text" onkeyup="setValue('text');"><br>
+
+    UTF-8 Bytes:<br>
+    <input id="byte"    type="text" onkeyup="setValue('byte');"><br>
+
+    Hex String:<br>
+    <input id="hex"     type="text" onkeyup="setValue('hex');"><br>
+
+    Hex String (+whitespace):<br>
+    <input id="hex_"    type="text" onkeyup="setValue('hex_');"><br>
+</body>
+
+<script src="hexbytes.js"></script>
+<script src="main.js"></script>
+</html>

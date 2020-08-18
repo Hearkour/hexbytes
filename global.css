@@ -1,0 +1,23 @@
+:root { --font-size: 2.2rem; }
+
+body {
+    font-size: var(--font-size);
+    font-weight: bold;
+}
+input {
+    width: max(calc(var(--font-size)*4), var(--max-width));
+    width: 90%;
+    height: calc(var(--font-size)*2);
+    font-size: calc(var(--font-size)*.65);
+
+    padding-left: calc(var(--font-size)/2);
+    margin-top: calc(var(--font-size)/4);
+    margin-bottom: var(--font-size);
+
+    border: 2px solid;
+}
+button {
+    font-size: var(--font-size);
+    width: calc(var(--font-size)*4);
+    height: calc(var(--font-size)*1.5);
+}
